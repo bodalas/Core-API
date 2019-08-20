@@ -3,7 +3,7 @@ version: 2
 jobs:
     build:
       docker:
-        -image: circleci/node:dubnium
+        - image: circleci/node:dubnium
       working_directory: ~/code
       steps:
         - checkout
